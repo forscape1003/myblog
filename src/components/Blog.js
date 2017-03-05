@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {Link} from 'react-router';
 import axios from 'axios';
 
 class Blog extends React.Component{
@@ -25,7 +25,7 @@ class Blog extends React.Component{
                       <div className='blog-desc'>
                           <h3>{item.title}</h3>
                           <p>{item.desc}</p>
-                          <a href={item.url}>阅读更多</a>
+                          <Link to={`post/${item.url}`}>阅读更多</Link> 
                           <span>{item.data}</span>
                       </div>
                   </div>
