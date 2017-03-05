@@ -19,7 +19,7 @@ header{
     flex-shrink: 0;
     display: flex;
     align-items: center;
-    background-color: #cddc39;
+    background-color: pink;
     justify-content: space-between;
     padding: 0 10px;
 }
@@ -27,6 +27,7 @@ header{
 header button{
     background-color: pink;
     color: white;
+    border-radius: 20%;
 }
 
 h3{
@@ -84,4 +85,41 @@ footer a{
     margin: 0 auto;
     border-radius: 8px;
     color: #fff;
+}
+.blog-card{
+    width: 96%;
+    margin: 10px auto;
+    border: 1px solid black;
+}
+.blog-index{
+    background-color: pink;
+    text-align: center;
+    color: #fff;
+    line-height: 36px;
+}
+.blog-desc{
+    padding-left: 10px;
+    position: relative;
+    color: #777;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 6px,rgba(0,0,0,0.2) 0px 2px 6px;
+}
+.blog-desc p{
+    font-size: 14px;
+    opacity:0.8;
+}
+.blog-desc a{
+    display: block;
+    color: #fff;
+    width: 6em;
+    padding: 5px 10px;
+    background-color: pink;
+    text-decoration: none;
+    border-radius: 15%;
+    text-align: center;
+}
+.blog-desc span{
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
 }
