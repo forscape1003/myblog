@@ -27,7 +27,7 @@ html,body,#root{
     line-height: 2.2;
     padding-left: 20px;
 }
-.leftnav a : hover {
+.leftnav a:hover {
     background-color:  rgba(0, 0, 0, 0.2);
 }
 .leftnav i{
