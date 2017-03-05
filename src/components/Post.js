@@ -2,6 +2,14 @@ import React from 'react';
 import axios from 'axios';
 
 import marked from 'marked';
+import hljs from 'highlight.js'
+
+
+marked.setOptions({
+    highlight: function (code) {
+        return hljs.highlightAuto(code).value;
+    }
+});  //高亮代码块
 
 class Post extends React.Component{
     constructor(){
