@@ -9,6 +9,31 @@ html,body,#root{
     -webkit-overflow-scrolling: touch;
 }
 
+.leftnav{
+    background-color: pink;
+    width: 260px;
+}
+.leftnav h3{
+    text-align: center;
+    color: #fff;
+    line-height: 2.2;
+    font-size: 24px;
+    border-bottom: 2px solid #fff;
+    left-spacing:2px;
+}
+.leftnav a{
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 2.2;
+    padding-left: 20px;
+}
+.leftnav a : hover {
+    background-color:  rgba(0, 0, 0, 0.2);
+}
+.leftnav i{
+    margin-right: 20px;
+}
 .root{
     display: flex;
     flex-direction: column;
@@ -122,4 +147,9 @@ footer a{
     position: absolute;
     right: 10px;
     bottom: 15px;
+}
+@media(min-width: 750px){
+    .root{
+        flex-direction: row;
+    }
 }
